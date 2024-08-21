@@ -1,0 +1,63 @@
+.profile-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+.edit-form {
+  width: 100%;
+  max-width: 450px; /* Slightly wider form */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  background-color: #fff; /* White background for the form */
+}
+
+.edit-form h2 {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Add margin below heading */
+  color: #343a40; /* Dark text color */
+}
+
+.edit-form label {
+  display: block;
+  margin-bottom: 5px; /* Reduce space above labels */
+  font-weight: bold; /* Bold labels for emphasis */
+  color: #495057; /* Darker text color for better contrast */
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px; /* Increase padding for better touch target */
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ced4da; /* Light gray border */
+  transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  border-color: #80bdff; /* Highlight border on focus */
+  outline: none; /* Remove outline */
+}
+
+.edit-form button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increase button text size */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.edit-form button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
